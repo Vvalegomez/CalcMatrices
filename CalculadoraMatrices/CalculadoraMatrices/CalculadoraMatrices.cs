@@ -38,8 +38,8 @@ namespace CalculadoraMatrices
         {
             try
             {
-                int y = System.Convert.ToInt16(txtCsrp.Text);
-                int x = System.Convert.ToInt16(txtFsrp.Text);
+                int y = System.Convert.ToInt32(txtCsrp.Text);
+                int x = System.Convert.ToInt32(txtFsrp.Text);
                 dgvA.ColumnCount = y;
                 dgvB.ColumnCount = y;
                 dgvA.RowCount = x;

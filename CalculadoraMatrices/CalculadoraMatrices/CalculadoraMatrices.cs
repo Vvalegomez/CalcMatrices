@@ -38,8 +38,8 @@ namespace CalculadoraMatrices
         {
             try
             {
-                int y = System.Convert.ToInt16(txtCsrp.Text);
-                int x = System.Convert.ToInt16(txtFsrp.Text);
+                int y = System.Convert.ToInt32(txtCsrp.Text);
+                int x = System.Convert.ToInt32(txtFsrp.Text);
                 dgvA.ColumnCount = y;
                 dgvB.ColumnCount = y;
                 dgvA.RowCount = x;
@@ -191,7 +191,7 @@ namespace CalculadoraMatrices
                     {
                         
                         dgvResultado.Rows[i].Cells[j].Value = 0;
-                        for (int p = 0; p < columnaB - 1; p++)
+                        for (int p = 0; p < filaA - 1; p++)
                         {
 
                             
@@ -215,6 +215,12 @@ namespace CalculadoraMatrices
         private void btSalir_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void btTranspuesta_Click(object sender, EventArgs e)
+        {
+            Transpuesta abrir = new Transpuesta();
+            abrir.Show();
         }
     }
     

@@ -54,6 +54,7 @@
             this.txtCsrp = new System.Windows.Forms.TextBox();
             this.btCargar = new System.Windows.Forms.Button();
             this.btSalir = new System.Windows.Forms.Button();
+            this.btTranspuesta = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultado)).BeginInit();
@@ -221,7 +222,7 @@
             // 
             // btEscalar
             // 
-            this.btEscalar.Location = new System.Drawing.Point(687, 24);
+            this.btEscalar.Location = new System.Drawing.Point(687, 18);
             this.btEscalar.Name = "btEscalar";
             this.btEscalar.Size = new System.Drawing.Size(90, 23);
             this.btEscalar.TabIndex = 18;
@@ -231,7 +232,7 @@
             // 
             // txtEscalar
             // 
-            this.txtEscalar.Location = new System.Drawing.Point(687, 54);
+            this.txtEscalar.Location = new System.Drawing.Point(687, 47);
             this.txtEscalar.Name = "txtEscalar";
             this.txtEscalar.Size = new System.Drawing.Size(90, 20);
             this.txtEscalar.TabIndex = 19;
@@ -288,11 +289,22 @@
             this.btSalir.UseVisualStyleBackColor = true;
             this.btSalir.Click += new System.EventHandler(this.btSalir_Click);
             // 
+            // btTranspuesta
+            // 
+            this.btTranspuesta.Location = new System.Drawing.Point(687, 73);
+            this.btTranspuesta.Name = "btTranspuesta";
+            this.btTranspuesta.Size = new System.Drawing.Size(90, 23);
+            this.btTranspuesta.TabIndex = 26;
+            this.btTranspuesta.Text = "Transpuesta";
+            this.btTranspuesta.UseVisualStyleBackColor = true;
+            this.btTranspuesta.Click += new System.EventHandler(this.btTranspuesta_Click);
+            // 
             // CalculadoraMatrices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 467);
+            this.Controls.Add(this.btTranspuesta);
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.btCargar);
             this.Controls.Add(this.txtCsrp);
@@ -357,6 +369,7 @@
         private System.Windows.Forms.TextBox txtCsrp;
         private System.Windows.Forms.Button btCargar;
         private System.Windows.Forms.Button btSalir;
+        private System.Windows.Forms.Button btTranspuesta;
     }
 }
 

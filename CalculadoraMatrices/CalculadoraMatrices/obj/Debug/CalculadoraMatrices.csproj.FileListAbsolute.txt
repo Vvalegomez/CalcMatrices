@@ -8,3 +8,4 @@ C:\Users\Valerio\source\repos\CalculadoraMatrices\CalculadoraMatrices\obj\Debug\
 C:\Users\Valerio\source\repos\CalculadoraMatrices\CalculadoraMatrices\obj\Debug\CalculadoraMatrices.csproj.CoreCompileInputs.cache
 C:\Users\Valerio\source\repos\CalculadoraMatrices\CalculadoraMatrices\obj\Debug\CalculadoraMatrices.exe
 C:\Users\Valerio\source\repos\CalculadoraMatrices\CalculadoraMatrices\obj\Debug\CalculadoraMatrices.pdb
+C:\Users\Valerio\source\repos\CalculadoraMatrices\CalculadoraMatrices\obj\Debug\CalculadoraMatrices.Transpuesta.resources
